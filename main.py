@@ -34,7 +34,7 @@
     "\n",
     "chatgpt =  ChatOpenAI()\n",
     "chatgpt = ChatOpenAI(model_name=\"gpt-3.5-turbo\", max_tokens = 512)\n",
-    "answer = chatgpt.invoke(\"코딩에 대한 시를 써줘\")\n",
+    "answer = chatgpt.predict(\"코딩에 대한 시를 써줘\")\n",
     "print(answer.content)\n",
     "\n",
     "import streamlit as st\n",
